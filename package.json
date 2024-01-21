@@ -54,7 +54,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn husky -- .husky/pre-commit"
+      "pre-commit": ".husky/pre-commit"
     }
   },
   "lint-staged": {
