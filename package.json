@@ -21,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format-prettier": "prettier --write \"src/**/*.+(js|jsx|ts|tsx)\"",
-    "lint": "eslint \"src/**/*.+(js|jsx|ts|tsx)\""
+    "format-prettier": "prettier --write \"src/**/*.+(js|jsx|ts|tsx)\" --verbose",
+    "lint": "eslint \"src/**/*.+(js|jsx|ts|tsx)\" --verbose"
   },
   "eslintConfig": {
     "extends": [
@@ -57,8 +57,8 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
-      "yarn format-prettier",   
-      "yarn lint"       
+      "yarn format-prettier --verbose",   
+      "yarn lint --verbose"       
     ]
   }
 
