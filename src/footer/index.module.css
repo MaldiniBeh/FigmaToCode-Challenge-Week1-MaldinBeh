@@ -2,8 +2,6 @@
   margin-top: rem(120px);
   padding-top: calc(var(--mantine-spacing-xl) * 2);
   padding-bottom: calc(var(--mantine-spacing-xl) * 2);
-  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
-  border-top: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-5));
 }
 
 .logo {
@@ -17,7 +15,12 @@
 }
 
 .description {
-  margin-top: rem(5px);
+ color: #FFF;
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
 
   @media (max-width: mantine-breakpoint-sm) {
     margin-top: var(--mantine-spacing-xs);
@@ -36,8 +39,7 @@
 }
 
 .groups {
-  display: flex;
-  flex-wrap: wrap;
+ 
 
   @media (max-width: mantine-breakpoint-sm) {
     display: none;
@@ -46,12 +48,18 @@
 
 .wrapper {
   width: rem(160px);
+  
 }
 
 .link {
+  color: #FFF;
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.8;
   display: block;
-  color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-1));
-  font-size: var(--mantine-font-size-sm);
   padding-top: rem(3px);
   padding-bottom: rem(3px);
 
@@ -61,23 +69,24 @@
 }
 
 .title {
-  font-size: var(--mantine-font-size-lg);
-  font-weight: 700;
-  font-family:
-    Greycliff CF,
-    var(--mantine-font-family);
-  margin-bottom: calc(var(--mantine-spacing-xs) / 2);
-  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
 .afterFooter {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: var(--mantine-spacing-xl);
+   color: #FFFFFF;
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    margin-top: var(--mantine-spacing-xl);
   padding-top: var(--mantine-spacing-xl);
   padding-bottom: var(--mantine-spacing-xl);
-  border-top: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-4));
 
   @media (max-width: mantine-breakpoint-sm) {
     flex-direction: column;
@@ -89,3 +98,4 @@
     margin-top: var(--mantine-spacing-xs);
   }
 }
+

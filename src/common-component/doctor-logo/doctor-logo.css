@@ -1,0 +1,25 @@
+.doctorTypo {
+    font-family: 'Times New Roman', Times, serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.footer {
+background: linear-gradient(96deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.header {
+    background: #FFF;
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.plus {
+width: 24px;
+height: 24px;
+flex-shrink: 0;
+}
