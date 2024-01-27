@@ -11,7 +11,7 @@ const HeaderMenu = () => {
     useDisclosure(false)
 
   return (
-    <Box pb={120} px={80}>
+    <Box pb={120}>
       <header className={classes.header}>
         <Group justify='space-between' px='md'>
           <Box pt={30}>
@@ -34,7 +34,7 @@ const HeaderMenu = () => {
             </a>
           </Group>
 
-          <Bulbe />
+          <Bulbe title='Book Now' width='40' />
 
           <Burger
             opened={drawerOpened}

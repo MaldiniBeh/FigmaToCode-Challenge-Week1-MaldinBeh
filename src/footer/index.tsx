@@ -50,7 +50,7 @@ const FooterLinks = () => {
   })
 
   return (
-    <footer className={`${classes.footer} px-2`}>
+    <footer className={`${classes.footer}`}>
       <Container className={classes.inner}>
         <div className='space-y-4'>
           <Box className=''>
