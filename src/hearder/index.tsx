@@ -34,8 +34,9 @@ const HeaderMenu = () => {
               Contact
             </a>
           </Group>
-
-          <Bulbe title='Book Now' icon={Icons.msgCircle} width={58} />
+          <Box className='w-40'>
+            <Bulbe title='Book Now' icon={Icons.msgCircle} width={40} />
+          </Box>
 
           <Burger
             opened={drawerOpened}
