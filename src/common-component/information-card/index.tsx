@@ -9,7 +9,7 @@ interface IInformationCard {
 const InformationCard: FC<IInformationCard> = (props) => {
   const { title, description, icon } = props
   return (
-    <div className='infoCard'>
+    <div className='infoCard w-64'>
       {icon}
       <div className='infoLayout'>
         <span className='infoTitle'>{title}</span>

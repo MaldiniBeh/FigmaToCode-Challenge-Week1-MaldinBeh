@@ -3,13 +3,30 @@ import DescriptionCard from '../common-component/description-card'
 import DoctorImage from '../img/dc.png'
 import plus from '../img/plus.png'
 import { Box } from '@mantine/core'
+import Icons from '../common-component/icons'
+import Bulbe from '../common-component/bulbe'
 
 const LandingPage = () => {
   return (
-    <Box className='flex justify-between' px={10}>
-      <Box className='w-1/2' px={80}>
-        <DescriptionCard />
+    <Box className='flex justify-between'>
+      <Box className='flex flex-col space-y-6' px={90}>
+        <Box className='max-w-lg'>
+          <DescriptionCard
+            name='Dr. Matthew Anderson'
+            title='A dedicated doctor you can trust'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum eget
+        vel, nunc nulla feugiat. Metus ut.'
+          />
+        </Box>
+        <Box className='w-60'>
+          <Bulbe
+            icon={Icons.msgCircle}
+            title='Book an appointment'
+            width={60}
+          />
+        </Box>
       </Box>
+
       <div className='relative'>
         <div className='rounded-full h-80 w-80 bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA]'>
           <img

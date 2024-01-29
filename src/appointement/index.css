@@ -1,0 +1,30 @@
+.cardStyle {
+    width: 1068px;
+    height: 315px;
+    border-radius: 32px;
+    background: linear-gradient(145deg, #1678F2 3.73%, #65A8FB 132.69%);
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+}
+
+.title {
+    color: #FFF;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.content {
+    color: #FFF;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}

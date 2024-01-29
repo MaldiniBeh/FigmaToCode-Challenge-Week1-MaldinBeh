@@ -5,6 +5,7 @@ import { useDisclosure } from '@mantine/hooks'
 import classes from './hearder.module.css'
 import DoctorLogo from '../common-component/doctor-logo'
 import Bulbe from '../common-component/bulbe'
+import Icons from '../common-component/icons'
 
 const HeaderMenu = () => {
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] =
@@ -34,7 +35,7 @@ const HeaderMenu = () => {
             </a>
           </Group>
 
-          <Bulbe title='Book Now' width='40' />
+          <Bulbe title='Book Now' icon={Icons.msgCircle} width={58} />
 
           <Burger
             opened={drawerOpened}
